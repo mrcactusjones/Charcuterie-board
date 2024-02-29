@@ -1,0 +1,30 @@
+@media only screen and (max-width: 480px) {
+  body {
+    font-family: 'Arial', sans-serif;
+    width: 99%;
+  }
+ 
+nav{position: sticky; top: 0px;}
+  
+#navv {width: 100%;}
+
+#sticky {float: none;}
+  
+#navv img {display: none;}
+
+#navv a {
+color: rgb(5, 5, 224); 
+text-decoration: none;
+}
+ 
+#navv a:hover {
+background-color: black;
+color: white;
+}
+
+div.desc {
+padding: 15px;
+text-align: center;
+}
+
+}

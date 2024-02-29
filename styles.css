@@ -1,0 +1,81 @@
+nav
+{
+width: 150px;
+float: left;
+list-style: none;
+}
+    
+nav a
+{
+display: block;
+text-decoration: none;
+background-color: aquamarine;
+margin: 9px;
+border-radius: 5px;
+text-align: center;
+}
+    
+    
+nav a:hover
+{
+background-color: black;
+color:  white;
+}
+
+nav img
+{
+
+height: 150px;
+}
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;}
+
+
+words 
+{
+float: left;
+padding: 20px;
+width: 75%;
+background-color: lightblue;
+
+}
+
+div.gallery {
+  border: 1px solid #b44848;
+  padding: 0 1px;
+  width: 82%;
+}
+  
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+  
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+  
+* {
+  box-sizing: border-box;
+}
+  
